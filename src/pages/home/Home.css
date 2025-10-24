@@ -1,5 +1,4 @@
 .homePage {
-  background: linear-gradient(to top, blueviolet, red);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,25 +14,10 @@
   color: white;
 }
 
-.homePlayButton {
+.buttonContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50px;
-  width: 200px;
-  border-radius: 100px;
-  border: 0px;
-
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  cursor: pointer;
-}
-.homePlayButton:active {
-  transform: scale(0.95);
-}
-.homeButtonText {
-  flex: 1;
-  text-align: center;
+  gap: 10px;
 }
